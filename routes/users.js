@@ -35,6 +35,4 @@ router.put("/change-user-data", validateJWT, ubdateUserData )
 router.put("/change-user-password", validateJWT, changePassword )
 
 
-
-
 export default router;
